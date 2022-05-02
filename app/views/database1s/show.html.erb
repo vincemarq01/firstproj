@@ -1,0 +1,26 @@
+<p style="color: green"><%= notice %></p>
+
+
+
+
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+
+<%= render @database1 %>
+
+</div>
+
+
+
+
+
+
+
+<div>
+
+  <%= link_to "Edit",  edit_database1_path(@database1), class:"btn btn-secondary" %> |
+  <%= link_to "Back",  database1s_path, class:"btn btn-secondary" %> |
+  <%= button_to "Destroy",  @database1, method: :delete, class:"btn btn-secondary" %>
+
+
+</div>
